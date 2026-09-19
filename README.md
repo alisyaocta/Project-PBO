@@ -34,9 +34,23 @@ Sistem Manajemen Panti Jompo
 
 ## 3.2 Menu Tambah
 
+### 3.2.1 Tambah Data Penghuni Khusus
+
+### 3.2.2 Tambah Data Penghuni Non Khusus
+
 ## 3.3 Menu Tampilkan
 
+### 3.3.1 Tampilkan Seluruh Data Penghuni 
+
+### 3.3.2 Tampilkan Data Penghuni Khusus
+
+### 3.3.3 Tampilkan Data Penghuni Non Khusus
+
 ## 3.4 Menu Update
+
+### 3.4.1 Update Data Penghuni Khusus
+
+### 3.4.2 Update Data Penghuni Non Khusus
 
 ## 3.5 Menu Hapus
 
