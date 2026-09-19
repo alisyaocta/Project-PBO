@@ -5,7 +5,9 @@
 ## SISTEM MANAJEMEN PANTI JOMPO
 
 Nama  : Alisya Octa Noor Ghina
+
 NIM   : 2509116017
+
 Kelas : Sistem Informasi (A)
 
 # PENDAHULUAN
