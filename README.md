@@ -50,19 +50,21 @@ Terakhir, terdapat class **InputValidasi** yang berfungsi untuk menangani dan me
 
 ### 2.2.1 Superclass
 
-<img width="254" height="79" alt="image" src="https://github.com/user-attachments/assets/8d27285a-4b29-4e4f-bc4c-01d951c1f189" />
+<img width="639" height="400" alt="image" src="https://github.com/user-attachments/assets/d8d3f62f-ea43-44fe-841c-15df218d4ba8" />
+
+Gambar di atas menampilkan penerapan superclass pada class PenghuniPanti. Class PenghuniPanti berperan sebagai class induk yang menjadi dasar bagi class PenghuniKhusus dan PenghuniNonKhusus. Di dalam class ini terdapat atribut dan method yang bersifat umum dan dimiliki oleh seluruh penghuni panti, seperti ID, nama, usia, nomor telepon keluarga, jenis kelamin, dan kondisi kesehatan. Sebagai superclass, PenghuniPanti menyediakan struktur dasar yang nantinya dapat diwariskan kepada class turunannya.
 
 ### 2.2.2 Subclass
 
 **1. Class Penghuni Khusus**
 
-<img width="418" height="62" alt="image" src="https://github.com/user-attachments/assets/6f242213-3c5d-4022-b8d2-56eff1a7b6da" />
+<img width="753" height="294" alt="image" src="https://github.com/user-attachments/assets/1fbdd4f3-3d8e-4f0a-b92d-0bb8ceeec0c6" />
 
 Gambar di atas menampilkan penerapan inheritance untuk class PenghuniKhusus. Penerapan inheritance ditandai dengan penggunaan kata kunci extends, yang menunjukkan bahwa class PenghuniKhusus merupakan turunan dari class PenghuniPanti. Dengan demikian, class PenghuniKhusus dapat mewarisi atribut dan method yang terdapat pada class PenghuniPanti, sekaligus memiliki atribut atau method tambahan yang sesuai dengan kebutuhan penghuni khusus. Penerapan ini memungkinkan kode yang bersifat umum digunakan kembali pada class turunan tanpa perlu menuliskannya kembali.
 
 **2. Class Penghuni Non Khusus**
 
-<img width="444" height="61" alt="image" src="https://github.com/user-attachments/assets/bef84bb2-c1ed-4698-9d66-97f12e820804" />
+<img width="664" height="219" alt="image" src="https://github.com/user-attachments/assets/e8a72617-858b-47db-9f15-f8808298c457" />
 
 Sama dengan gambar sebelumnya, gambar di atas menampilkan penerapan inheritance untuk class PenghuniNonKhusus. Penerapan inheritance ditandai dengan penggunaan kata kunci extends, yang menunjukkan bahwa class PenghuniNonKhusus merupakan turunan dari class PenghuniPanti. Dengan demikian, class PenghuniKhusus dapat mewarisi atribut dan method yang terdapat pada class PenghuniPanti, sekaligus memiliki atribut atau method tambahan yang sesuai dengan kebutuhan penghuni khusus. Penerapan ini memungkinkan kode yang bersifat umum digunakan kembali pada class turunan tanpa perlu menuliskannya kembali.
 
