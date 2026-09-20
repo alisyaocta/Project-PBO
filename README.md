@@ -14,13 +14,23 @@ Kelas : Sistem Informasi (A)
 
 ## 1.1 Latar Belakang
 
-Sistem Manajemen Panti Jompo
+Panti jompo merupakan tempat tinggal bagi para lansia yang membutuhkan tempat tinggal, perawatan, serta pendampingan dalam menjalani aktivitas sehari-hari. Di dalam panti jompo, para lansia dapat tinggal dan beraktivitas bersama dengan penghuni lainnya dalam lingkungan yang teratur dan terkelola. Dalam proses pengelolaannya, diperlukan pendataan penghuni yang terstruktur agar informasi seperti identitas, usia, nomor telepon, jenis kelamin, dan kondisi penghuni dapat dicatat dan dikelola dengan baik. Pengelolaan data yang terorganisir dapat membantu pihak panti dalam mengetahui informasi setiap penghuni serta mempermudah proses pencarian dan pembaruan data.
+
+Berdasarkan kebutuhan tersebut, dibuat **Sistem Manajemen Panti Jompo Rumah Senja** yang digunakan untuk mengelola data penghuni panti. Sistem ini menyediakan beberapa fungsi utama, yaitu menambahkan data penghuni, menampilkan seluruh data, mencari data berdasarkan nama, mengubah data, serta menghapus data penghuni. Selain digunakan untuk mengelola data, sistem ini juga dirancang dengan menerapkan konsep _Object-Oriented Programming_ (OOP). Dengan adanya sistem ini, proses pengelolaan data penghuni dapat dilakukan secara lebih terstruktur.
 
 ## 1.2 Tujuan
+Tujuan dari pembuatan sistem ini adalah sebagai berikut:
+- Mempermudah pengelolaan data penghuni panti jompo.
+- Memudahkan proses penambahan, pencarian, perubahan, dan penghapusan data penghuni.
+- Membantu menyimpan informasi penghuni secara lebih terstruktur.
 
 # BAB II PEMBAHASAN
 
 ## 2.1 Hierarki Kelas
+
+Hierarki class merupakan struktur yang menunjukkan hubungan antara class induk (superclass) dan class turunan (subclass) dalam penerapan konsep inheritance. Class induk berisi atribut dan method yang dapat digunakan kembali oleh class turunan, sehingga class turunan tidak perlu mendefinisikan kembali bagian yang sama. Dengan adanya hubungan tersebut, setiap subclass dapat memiliki karakteristik tambahan sesuai dengan kebutuhan sistem, tetapi tetap mewarisi sifat dan perilaku dari superclass.
+
+Pada Sistem Manajemen Panti Jompo Rumah Senja, hierarki class digunakan untuk menggambarkan hubungan antarclass yang menerapkan inheritance. Super-class menjadi class utama yang menyediakan atribut dan method umum, sedangkan subclass merupakan class yang mewarisi dan dapat mengembangkan atribut atau method tersebut sesuai kebutuhan. Diagram hierarki class pada sistem ditampilkan pada gambar berikut.
 
 ## 2.2 Implementasi Inheritance
 
@@ -34,9 +44,13 @@ Sistem Manajemen Panti Jompo
 
 <img width="418" height="62" alt="image" src="https://github.com/user-attachments/assets/6f242213-3c5d-4022-b8d2-56eff1a7b6da" />
 
+Gambar di atas menampilkan penerapan inheritance untuk class PenghuniKhusus. Penerapan inheritance ditandai dengan penggunaan kata kunci extends, yang menunjukkan bahwa class PenghuniKhusus merupakan turunan dari class PenghuniPanti. Dengan demikian, class PenghuniKhusus dapat mewarisi atribut dan method yang terdapat pada class PenghuniPanti, sekaligus memiliki atribut atau method tambahan yang sesuai dengan kebutuhan penghuni khusus. Penerapan ini memungkinkan kode yang bersifat umum digunakan kembali pada class turunan tanpa perlu menuliskannya kembali.
+
 **2. Class Penghuni Non Khusus**
 
 <img width="444" height="61" alt="image" src="https://github.com/user-attachments/assets/bef84bb2-c1ed-4698-9d66-97f12e820804" />
+
+Sama dengan gambar sebelumnya, gambar di atas menampilkan penerapan inheritance untuk class PenghuniNonKhusus. Penerapan inheritance ditandai dengan penggunaan kata kunci extends, yang menunjukkan bahwa class PenghuniNonKhusus merupakan turunan dari class PenghuniPanti. Dengan demikian, class PenghuniKhusus dapat mewarisi atribut dan method yang terdapat pada class PenghuniPanti, sekaligus memiliki atribut atau method tambahan yang sesuai dengan kebutuhan penghuni khusus. Penerapan ini memungkinkan kode yang bersifat umum digunakan kembali pada class turunan tanpa perlu menuliskannya kembali.
 
 # BAB III OUTPUT
 
@@ -44,33 +58,53 @@ Sistem Manajemen Panti Jompo
 
 <img width="379" height="205" alt="image" src="https://github.com/user-attachments/assets/8e8c43e1-6e6c-44d1-aea3-876ec819dc4b"/>
 
+Gambar di atas merupakan tampilan dari Menu Utama program ini. Dalam program ini saya menyediakan fitur tambah, tampilkan, update, cari, dan hapus.
+
 ## 3.2 Menu Tambah
 
 <img width="382" height="157" alt="image" src="https://github.com/user-attachments/assets/43dd1d17-e4ce-4aef-92bf-5e1f554e33bc" />
+
+Gambar di atas merupakan tampilan menu tambah yang digunakan untuk menambahkan data penghuni panti. Pada menu ini, pengguna dapat memasukkan data penghuni sesuai dengan jenisnya, yaitu penghuni khusus atau penghuni nonkhusus. Pemilihan jenis penghuni tersebut akan menentukan data dan informasi yang perlu dimasukkan sesuai dengan karakteristik masing-masing jenis penghuni.
 
 ### 3.2.1 Tambah Data Penghuni Khusus
 
 <img width="431" height="222" alt="image" src="https://github.com/user-attachments/assets/26d76e01-49b7-4a8c-bdb0-62c8d8f7f347" />
 
+Gambar di atas menunjukkan tampilan informasi yang ditambahkan untuk penghuni khusus. Informasi umum yang dicatat meliputi ID penghuni, nama, usia, nomor telepon keluarga, jenis kelamin, dan kondisi kesehatan.
+
+Selain informasi umum tersebut, penghuni khusus juga memiliki informasi tambahan yang berkaitan dengan kebutuhan perawatannya, yaitu **jadwal perawatan** dan **jadwal pemberian obat**. Informasi khusus ini digunakan untuk membantu memastikan kebutuhan perawatan dan pemberian obat kepada penghuni dapat dilakukan sesuai dengan jadwal yang telah ditentukan.
+
 ### 3.2.2 Tambah Data Penghuni Non Khusus
 
 <img width="371" height="202" alt="image" src="https://github.com/user-attachments/assets/b9881077-a06d-4f1c-83e2-4d7c0fc42eb7" />
+
+Gambar di atas menunjukkan tampilan informasi yang ditambahkan untuk penghuni non khusus. Informasi umum yang dicatat meliputi ID penghuni, nama, usia, nomor telepon keluarga, jenis kelamin, dan kondisi kesehatan.
+
+Selain informasi umum tersebut, penghuni non khusus juga memiliki informasi tambahan yang berkaitan dengan aktivitas sehari-hari, yaitu **jadwal kegiatan**. Informasi tambahan ini digunakan untuk membantu mengatur dan mencatat kegiatan penghuni agar dapat dilaksanakan sesuai dengan jadwal yang telah ditentukan.
 
 ## 3.3 Menu Tampilkan
 
 <img width="385" height="172" alt="image" src="https://github.com/user-attachments/assets/21faed59-c221-4df1-98b7-ac7bf04d5b14" />
 
+Pada menu Tampilkan Data, tersedia fitur yang digunakan untuk menampilkan data penghuni panti yang tersedia. Data yang ditampilkan mencakup data seluruh penghuni, penghuni khusus, dan penghuni non khusus. Fitur ini memudahkan pengguna dalam melihat dan mengakses informasi penghuni sesuai dengan kategori yang tersedia.
+
 ### 3.3.1 Tampilkan Seluruh Data Penghuni 
 
 <img width="672" height="552" alt="image" src="https://github.com/user-attachments/assets/800e62e9-fa62-4dd6-b6de-764af71a80c3" />
+
+Jika pengguna memilih menu Tampilkan Seluruh Data Penghuni, sistem akan menampilkan seluruh data penghuni panti tanpa membedakan kategori. Data yang ditampilkan mencakup penghuni khusus maupun penghuni non khusus, sehingga pengguna dapat melihat keseluruhan data penghuni dalam satu tampilan.
 
 ### 3.3.2 Tampilkan Data Penghuni Khusus
 
 <img width="743" height="158" alt="image" src="https://github.com/user-attachments/assets/4191ebc5-bb6c-434e-9ebc-6842e932a932" />
 
+Jika pengguna memilih menu Tampilkan Data Penghuni Khusus, sistem akan menampilkan data penghuni yang termasuk dalam kategori khusus. Informasi yang ditampilkan meliputi ID, nama, usia, nomor telepon keluarga, jenis kelamin, kondisi kesehatan, jadwal perawatan, dan jadwal pemberian obat.
+
 ### 3.3.3 Tampilkan Data Penghuni Non Khusus
 
 <img width="748" height="142" alt="image" src="https://github.com/user-attachments/assets/82f0a671-af9d-44e8-aff3-5ea24d57818e" />
+
+Jika pengguna memilih menu **Tampilkan Data Penghuni Non Khusus**, sistem akan menampilkan data penghuni yang termasuk dalam kategori non khusus. Informasi yang ditampilkan meliputi **ID, nama, usia, nomor telepon keluarga, jenis kelamin, kondisi kesehatan, dan jadwal kegiatan**.
 
 ## 3.4 Menu Update
 
