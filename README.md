@@ -32,6 +32,20 @@ Hierarki class merupakan struktur yang menunjukkan hubungan antara class induk (
 
 Pada Sistem Manajemen Panti Jompo Rumah Senja, hierarki class digunakan untuk menggambarkan hubungan antarclass yang menerapkan inheritance. Super-class menjadi class utama yang menyediakan atribut dan method umum, sedangkan subclass merupakan class yang mewarisi dan dapat mengembangkan atribut atau method tersebut sesuai kebutuhan. Diagram hierarki class pada sistem ditampilkan pada gambar berikut.
 
+Dalam perancangan sistem **Manajemen Panti Jompo Rumah Senja**, terdapat **6 class** yang digunakan untuk membangun dan mengatur keseluruhan fungsi program. Keenam class tersebut terdiri dari  main class, 1 parent class, 2 subclass, serta 2 class pendukung, yaitu Main, PenghuniPanti, PenghuniKhusus, PenghuniNonKhusus, PenghuniCRUD, dan InputValidasi.
+
+**Main** merupakan class utama yang berfungsi sebagai titik awal atau *entry point* ketika program dijalankan. Class ini bertugas menjalankan program serta menghubungkan pengguna dengan berbagai menu yang tersedia dalam sistem.
+
+**PenghuniPanti** merupakan **parent class** yang menjadi dasar dari data penghuni panti. Class ini menyimpan atribut dan informasi umum yang dimiliki oleh seluruh penghuni, seperti **ID, nama, usia, nomor telepon keluarga, jenis kelamin, dan kondisi kesehatan**. Dengan adanya parent class, informasi yang bersifat umum tidak perlu ditulis berulang pada setiap jenis penghuni. Selanjutnya, terdapat dua **subclass**, yaitu **PenghuniKhusus** dan **PenghuniNonKhusus**. Kedua subclass tersebut merupakan turunan dari class **PenghuniPanti** dan memiliki karakteristik tambahan sesuai dengan kategori penghuni.
+
+Class **PenghuniKhusus** digunakan untuk mengelola data penghuni yang membutuhkan perhatian atau perawatan khusus. Selain mewarisi informasi umum dari parent class, class ini memiliki informasi tambahan berupa **jadwal perawatan dan jadwal pemberian obat**.
+
+Sementara itu, class **PenghuniNonKhusus** digunakan untuk mengelola data penghuni yang termasuk dalam kategori non khusus. Class ini juga mewarisi atribut umum dari **PenghuniPanti**, tetapi memiliki informasi tambahan berupa **jadwal kegiatan** yang digunakan untuk mengatur aktivitas penghuni sehari-hari.
+
+Selain class yang berkaitan langsung dengan objek penghuni, terdapat **PenghuniCRUD** yang berfungsi untuk mengelola proses **CRUD (Create, Read, Update, Delete)** terhadap data penghuni. Class ini menangani berbagai proses seperti **menambahkan data penghuni, menampilkan data, mencari data, memperbarui data, dan menghapus data penghuni**. Dengan adanya class ini, proses pengelolaan data dapat dipisahkan dari class yang menyimpan informasi penghuni sehingga struktur program menjadi lebih terorganisir.
+
+Terakhir, terdapat class **InputValidasi** yang berfungsi untuk menangani dan memastikan validitas data yang dimasukkan oleh pengguna. Class ini digunakan agar input yang diberikan sesuai dengan ketentuan yang telah ditentukan oleh sistem, sehingga dapat mengurangi kesalahan input dan mencegah data yang tidak sesuai masuk ke dalam sistem.
+
 ## 2.2 Implementasi Inheritance
 
 ### 2.2.1 Superclass
