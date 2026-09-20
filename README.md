@@ -26,7 +26,17 @@ Sistem Manajemen Panti Jompo
 
 ### 2.2.1 Superclass
 
+<img width="254" height="79" alt="image" src="https://github.com/user-attachments/assets/8d27285a-4b29-4e4f-bc4c-01d951c1f189" />
+
 ### 2.2.2 Subclass
+
+**1. Class Penghuni Khusus**
+
+<img width="418" height="62" alt="image" src="https://github.com/user-attachments/assets/6f242213-3c5d-4022-b8d2-56eff1a7b6da" />
+
+**2. Class Penghuni Non Khusus**
+
+<img width="444" height="61" alt="image" src="https://github.com/user-attachments/assets/bef84bb2-c1ed-4698-9d66-97f12e820804" />
 
 # BAB III OUTPUT
 
