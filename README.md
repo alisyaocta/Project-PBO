@@ -32,6 +32,9 @@ Sistem Manajemen Panti Jompo
 
 ## 3.1 Menu Utama
 
+<img width="379" height="205" alt="image" src="https://github.com/user-attachments/assets/8e8c43e1-6e6c-44d1-aea3-876ec819dc4b"/>
+
+
 ## 3.2 Menu Tambah
 
 ### 3.2.1 Tambah Data Penghuni Khusus
