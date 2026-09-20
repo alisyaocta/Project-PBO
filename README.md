@@ -104,35 +104,51 @@ Jika pengguna memilih menu Tampilkan Data Penghuni Khusus, sistem akan menampilk
 
 <img width="748" height="142" alt="image" src="https://github.com/user-attachments/assets/82f0a671-af9d-44e8-aff3-5ea24d57818e" />
 
-Jika pengguna memilih menu **Tampilkan Data Penghuni Non Khusus**, sistem akan menampilkan data penghuni yang termasuk dalam kategori non khusus. Informasi yang ditampilkan meliputi **ID, nama, usia, nomor telepon keluarga, jenis kelamin, kondisi kesehatan, dan jadwal kegiatan**.
+Jika pengguna memilih menu Tampilkan Data Penghuni Non Khusus, sistem akan menampilkan data penghuni yang termasuk dalam kategori non khusus. Informasi yang ditampilkan meliputi ID, nama, usia, nomor telepon keluarga, jenis kelamin, kondisi kesehatan, dan jadwal kegiatan.
 
 ## 3.4 Menu Update
 
 <img width="380" height="170" alt="image" src="https://github.com/user-attachments/assets/d952aa92-9ad6-4f19-9243-9b61a0994c30" />
 
+Gambar di atas merupakan tampilan menu Update. Pada menu ini, pengguna dapat memperbarui atau mengubah informasi penghuni yang mengalami perubahan. Informasi yang dapat diperbarui meliputi usia penghuni, kondisi kesehatan, serta jadwal khusus penghuni.
+
 ### 3.4.1 Update Usia Penghuni Panti
 
 <img width="374" height="123" alt="image" src="https://github.com/user-attachments/assets/0d59a28d-b4ad-4d4f-9fc5-cb484176a5c8" />
+
+Gambar di atas menampilkan proses pembaruan usia penghuni. Pembaruan usia dilakukan setiap satu tahun sekali untuk memastikan data usia setiap penghuni tetap akurat dan sesuai dengan kondisi terkini. 
 
 ### 3.4.2 Update Kondisi Kessehatan Penghuni Panti
 
 <img width="374" height="123" alt="image" src="https://github.com/user-attachments/assets/a30843e1-68de-416f-a839-7111fba9f8b3" />
 
+Gambar di atas menampilkan proses pembaruan kondisi kesehatan penghuni Panti Rumah Senja. Pembaruan kondisi kesehatan dilakukan secara berkala agar data kesehatan penghuni selalu sesuai dengan kondisi terkini. Dengan adanya pembaruan ini, para perawat dapat memperoleh informasi terbaru mengenai kondisi kesehatan setiap lansia sehingga dapat menyesuaikan perawatan dan kegiatan yang diberikan.
+
 ### 3.4.3 Update Data Penghuni Khusus
 
 <img width="378" height="445" alt="image" src="https://github.com/user-attachments/assets/6167ded9-5ac4-4806-886d-f510beb4b8d7" />
+
+Gambar di atas menampilkan proses pembaruan jadwal pemberian obat bagi penghuni khusus. Pembaruan ini dilakukan untuk memastikan jadwal pemberian obat selalu sesuai dengan kebutuhan dan kondisi terkini penghuni, sehingga pemberian obat dapat dilakukan secara teratur dan tepat waktu.
 
 ### 3.4.4 Update Data Penghuni Non Khusus
 
 <img width="376" height="354" alt="image" src="https://github.com/user-attachments/assets/d528a00d-571a-4268-b6d8-320388d122ca" />
 
+Gambar di atas menampilkan proses pembaruan jadwal kegiatan bagi penghuni non khusus. Pembaruan ini dilakukan untuk menyesuaikan jadwal kegiatan dengan kebutuhan dan aktivitas penghuni, sehingga setiap kegiatan dapat dilaksanakan sesuai dengan jadwal yang telah ditentukan.
+
 ### 3.4.5 Hasil Update Data
 
 <img width="387" height="575" alt="image" src="https://github.com/user-attachments/assets/7e082054-c81d-4250-87ca-17a3d80683b7" />
 
+Gambar di atas menampilkan hasil dari seluruh proses pembaruan.
+
 ## 3.5 Menu Hapus
 
 <img width="368" height="112" alt="image" src="https://github.com/user-attachments/assets/c39f6568-0e38-46a7-b201-d636a079fd19" />
+
+Gambar di atas menampilkan proses penghapusan data penghuni. Pada menu ini, pengguna dapat menghapus data penghuni dengan cara memasukkan ID penghuni yang ingin dihapus. Sistem kemudian akan mencari data berdasarkan ID tersebut dan menghapus data penghuni yang sesuai.
+
+**Hasil Tampilan Setelah ID 1 Dihapus**
 
 <img width="747" height="161" alt="image" src="https://github.com/user-attachments/assets/fbf8f3cd-7ab1-4f43-a4b9-4dcb9cf4f8ae" />
 
@@ -142,6 +158,10 @@ Jika pengguna memilih menu **Tampilkan Data Penghuni Non Khusus**, sistem akan m
 
 <img width="1069" height="90" alt="image" src="https://github.com/user-attachments/assets/610d873c-62d0-4216-8a46-69d6c116ae1d" />
 
+Pada menu Cari Penghuni, pengguna dapat mencari data penghuni berdasarkan nama. Penggunaan nama sebagai kata kunci pencarian dipilih karena lebih mudah diingat dan digunakan dalam situasi sehari-hari. Ketika keluarga penghuni datang untuk menjenguk, mereka umumnya akan menyebutkan nama penghuni yang ingin ditemui daripada ID penghuni. Oleh karena itu, pencarian berdasarkan nama dapat memudahkan pengguna dalam menemukan data penghuni dengan lebih cepat dan praktis.
+
 ## 3.7 Menu Keluar
 
 <img width="380" height="271" alt="image" src="https://github.com/user-attachments/assets/98cea80a-d9bd-4b05-9385-cc0e85987063" />
+
+Gambar di atas merupakan tampilan yang muncul ketika pengguna memilih menu Keluar dari program Manajemen Panti Jompo Rumah Senja. Menu ini digunakan untuk mengakhiri penggunaan program dan keluar dari sistem.
